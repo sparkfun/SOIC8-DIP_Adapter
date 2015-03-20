@@ -7952,19 +7952,19 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
+<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="" value="frame"/>
 <part name="U1" library="SparkFun-AnalogIC" deviceset="GENERIC-SOIC8" device=""/>
 <part name="U2" library="SparkFun-AnalogIC" deviceset="GENERIC-SOIC8" device=""/>
 <part name="U3" library="SparkFun-AnalogIC" deviceset="GENERIC-SOIC8" device=""/>
 <part name="U4" library="SparkFun-AnalogIC" deviceset="GENERIC-SOIC8" device=""/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
-<part name="JP4" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
-<part name="JP5" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
-<part name="JP6" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
-<part name="JP7" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
-<part name="JP8" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND" value="1x4"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND" value="1x4"/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND" value="1x4"/>
+<part name="JP4" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND" value="1x4"/>
+<part name="JP5" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND" value="1x4"/>
+<part name="JP6" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND" value="1x4"/>
+<part name="JP7" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND" value="1x4"/>
+<part name="JP8" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND" value="1x4"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 </parts>
@@ -7972,7 +7972,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheet>
 <plain>
 <text x="172.72" y="10.16" size="2.54" layer="94">Byron Jacquot</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">V01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">V11</text>
+<text x="68.58" y="172.72" size="2.54" layer="94">Four SOIC8 to DIP adapters on one snappable board.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
