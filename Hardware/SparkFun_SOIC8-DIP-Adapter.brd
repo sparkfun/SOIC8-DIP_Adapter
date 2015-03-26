@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -185,7 +185,7 @@
 <text x="17.272" y="0.762" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">DIP8</text>
 <text x="6.604" y="0.762" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">DIP8</text>
 <text x="5.588" y="2.794" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">to</text>
-<text x="19.558" y="-7.62" size="1.9304" layer="51" font="vector">Byron Jacquot</text>
+<text x="15.748" y="-17.78" size="1.9304" layer="51" font="vector">Byron Jacquot</text>
 <text x="5.334" y="19.812" size="0.8128" layer="16" font="vector" ratio="25" rot="MR0">V11</text>
 <circle x="6.985" y="20.32" radius="0.127" width="0.254" layer="21"/>
 <circle x="17.653" y="20.32" radius="0.127" width="0.254" layer="21"/>
@@ -201,6 +201,10 @@
 <text x="7.62" y="8.636" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">8</text>
 <wire x1="10.668" y1="20.828" x2="10.668" y2="0" width="0.2032" layer="20"/>
 <wire x1="0" y1="10.668" x2="20.828" y2="10.668" width="0.2032" layer="20"/>
+<dimension x1="0" y1="0" x2="0" y2="20.828" x3="-11.557" y3="10.414" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="0" x2="0" y2="10.16" x3="-5.08" y3="5.08" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="0" x2="20.828" y2="0" x3="10.414" y3="-8.89" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="0" x2="10.16" y2="0" x3="5.08" y3="-3.81" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -774,9 +778,9 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="frame" x="-11.43" y="-7.62">
-<attribute name="VERSION" value="v01" x="-11.43" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="DESIGNER" value="NAME" x="-11.43" y="-7.62" size="1.778" layer="27" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="frame" x="-16.51" y="-17.78">
+<attribute name="VERSION" value="v01" x="-16.51" y="-17.78" size="1.778" layer="27" display="off"/>
+<attribute name="DESIGNER" value="NAME" x="-16.51" y="-17.78" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="1X04_NO_SILK_ALL_ROUND" value="1x4" x="1.27" y="19.558" rot="R270"/>
 <element name="JP2" library="SparkFun-Connectors" package="1X04_NO_SILK_ALL_ROUND" value="1x4" x="8.89" y="19.558" rot="R270"/>
