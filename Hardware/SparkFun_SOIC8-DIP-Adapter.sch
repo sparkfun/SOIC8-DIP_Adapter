@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8018,7 +8018,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheet>
 <plain>
 <text x="172.72" y="10.16" size="2.54" layer="94">Byron Jacquot</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">V12</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">V11</text>
 <text x="68.58" y="172.72" size="2.54" layer="94">Four SOIC8 to DIP adapters on one snappable board.</text>
 </plain>
 <instances>
